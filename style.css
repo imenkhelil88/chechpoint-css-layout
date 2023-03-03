@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header>img{
+    width: 200px;
+}
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+.nav-list{
+    display: flex;
+    gap:20px;
+    color: grey;
+}
+nav:first-child{
+    color: #00b39b;
+}
+#first{
+    margin: 2%;
+    text-align: center;
+    margin:0 18%;
+}
+.first-para{
+    display: flex;
+    text-align: start;
+    gap: 30px;
+}
+h1{
+    color: #00b39b;
+    font-family: 'Inter', sans-serif;
+    font-size:xx-large;
+    font-style: initial;
+    margin: 2%;
+}
+.card:first-child{
+    background-color: #00ccb1;
+    margin: 1%;
+    padding: 1%;
+    color: white ;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    line-height: 2;
+}
+.card>h1{
+    margin: 0% !important;
+    color: white !important;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40%;
+    text-decoration: underline;
+}
+
+.card:nth-child(2n) {
+    background-color: #3d83df;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    line-height: 2;
+}
+.card:last-child {
+    background-color: #1b2734;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    line-height: 2;
+}
+.choix{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      
+        text-decoration: underline;
+}
+#cards{
+    margin:10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+}
+#second>img{
+    width: 100px;
+    filter: grayscale(1);
+}
+#green{
+    height: 100vh;
+    background-color: #e5faf8;
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 0 135%;
+    display: flex;
+    justify-content: space-around;
+}
+.green-intro{
+    padding: 10%;
+    color: grey;
+}
+.cardd{
+    background-color: white;
+    color: grey;
+    margin: 1%;
+    width: 200px;
+    text-align: center;
+    height: 250px;
+    padding: 1%;
+    border-radius: 5px;
+    line-height: 1.5;
+    
+}
+.cardd>h1{
+    font-size: medium;
+}
+.green-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cardd:first-child {
+   margin-top: 10%;
+   margin-bottom: 0%;
+}
+.cardd:nth-child(3n){
+    margin-top: -13%;
+    
+}
+.cardd:last-child{
+    margin-top: -20%;
+}
+#contries{
+    margin: 2%;
+    padding: 4%;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+#contries>p{
+    color: gray;
+    padding: 3%;
+    margin: 4%;
+    margin:0 25%;
+}
+ .carte>img{
+    border-radius: 2% 2% 0 0;
+
+} 
+.carte>span{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20%;
+    color: gray;
+  
+}
+button{
+    background-color: #3d83df;
+    color: white;
+    border-radius: 15%;
+    padding: 2%;
+    margin: 2%;
+    border: none;
+   
+}
+#tt{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    
+}
+#tt>h1{
+    color: black;
+
+}
+footer{
+text-align: center;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    
+}
+#spnftr{
+    margin:0 15% ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ color: gray;
+ 
+
+}
+#spnftr>a{
+    color: #00b39b;
+}
+@media screen and (max-width:700px) {
+    header{
+   
+        display: block;
+       }
+       #green{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: fit-content;
+
+       }
+       .cardd{
+        width: 50%;
+        margin: 5%;
+        height: 250px;
+        margin-top: 0% !important;
+        margin-bottom: 5% !important;
+       
+
+       }
+       .cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+       
+
+       }
+       #second{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        
+       }
+       
+       .green-card{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       text-align: center;
+       height: 100%;
+       
+       }
+       .green-intro{
+        text-align: center;
+       }
+       #cards{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .first-para{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       #green{
+        background-image: url("https://www.docplanner.com/img/logo.png");
+        background-repeat: no-repeat;
+        background-position: 50%;
+       }
+}
